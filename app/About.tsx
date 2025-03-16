@@ -56,7 +56,7 @@ export default function About()
                 </div>
             </div>
             <div className="flex flex-col  p-[20px] xl:border-t-[2px] xl:border-[#ACACAC]">
-                <p className='text-[#293245] text-[26px] md:text-[32px] font-black'>👨‍💻Technical Skills and Tools 👨‍💻</p>
+                <p className='text-[#293245] text-[22px] md:text-[32px] font-black'>👨‍💻Technical Skills and Tools 👨‍💻</p>
                 <div className='flex flex-wrap w-full justify-center gap-[40px] mt-[40px] xl:mt-[70px]'>
                     {
                         iconLinks.map((icon, index) => (
