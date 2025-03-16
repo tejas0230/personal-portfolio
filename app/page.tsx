@@ -7,7 +7,7 @@ import Projects from "./Projects";
 export default function Home() {
   return (
     <div className="relative content">
-      <LeftFloatingBar/>
+      {/* <LeftFloatingBar/> */}
       {/* <FloatingNav/> */}
       <div className=" p-2 sm:w-[640px] md:w-[748px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1536px] h-2 mx-auto my-0">
         <Navbar/>

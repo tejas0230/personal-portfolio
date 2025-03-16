@@ -4,7 +4,7 @@ import CustomButton from '../components/CustomButton';
 export default function Navbar()
 {
    return (
-       <div className={`${dmSans.className} text-[#293245] flex justify-between align-center py-4`}>
+       <div className={`${dmSans.className} text-[#293245] flex justify-between align-center py-2 md:py-4 px-2 md:px-0`}>
          <div className="font-[700]  text-[20px] self-center lg:text-[24px]">Tejas Bendkule</div>
          <div className="flex gap-[32px] align-center justify-center">
             {/* <a href="#about" className="font-[700] text-[16px] self-center">About</a>

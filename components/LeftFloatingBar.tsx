@@ -13,7 +13,7 @@ export default function LeftFloatingBar() {
   ];
 
   return (
-    <div className="floating-left-bar fixed top-[25%] left-0 rounded-tr-[30px] rounded-br-[30px] border-[0.3px] border-[#dfdfdf] flex flex-col gap-[24px] pl-[8px] px-[12px] py-[18px] md:px-[16px] md:py-[32px] bg-white z-1000">
+    <div className="floating-left-bar flex justify-center gap-[24px] mt-[20px] z-1000">
       {iconLinks.map((icon, index) => (
         <a key={index} href={icon.href} target="_blank" rel="noopener noreferrer">
           <motion.img

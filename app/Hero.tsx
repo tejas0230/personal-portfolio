@@ -5,6 +5,7 @@ import { useState, useEffect, useMemo } from "react";
 import { motion } from "framer-motion";
 import CustomButton from "@/components/CustomButton";
 import Image from "next/image";
+import LeftFloatingBar from "@/components/LeftFloatingBar";
 export default function Hero()
 {
     const words = useMemo(() => ["Software Engineer", "Game Programmer", "Web Designer"], []);
@@ -52,7 +53,7 @@ export default function Hero()
                 <Image src={"/Tejas.jpg"} alt={"Tejas"} width={1000} height={1000} className="w-full h-full object-cover object-top"/>
             </div>
 
-            <div className="text-[40px] md:text-[64px] text-[#293245] font-black text-center flex justify-center">I &apos;m Tejas <span className="w-[45px] md:w-[80px]"><Image src={"/waving-hand.png"} alt="" width={45} height={45} /></span></div>
+            <div className="text-[40px] md:text-[64px] text-[#293245] font-black text-center flex justify-center">I &apos;m Tejas <span className="w-[45px] md:w-[80px]"><Image src={"/waving-hand.png"} alt="" width={100} height={100} className="w-full"/></span></div>
             <div className="text-[22px]  md:text-[32px] text-[#424242] font-medium">
                 A Passionate{" "}
                 <motion.span
@@ -90,6 +91,8 @@ export default function Hero()
             <div className="mx-auto w-max mt-[32px]">
                 <Image src={"arrow-down-fill.svg"} alt="" width={24} height={24} />
             </div>
+
+            <LeftFloatingBar/>
         </div>
     );
 }
